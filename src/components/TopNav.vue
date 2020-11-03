@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="topNav">
-      <div class="logo"><strong>LOGO</strong></div>
+      <div class="logo" @click="toggleMenu"><strong>LOGO</strong></div>
       <ul class="menu">
         <li>菜单1</li>
         <li>菜单2</li>
@@ -9,6 +9,19 @@
     </div>
   </div>
 </template>
+<script lang="ts">
+import {inject,Ref} from 'vue'
+export default {
+  setup(){
+    const menuVisible =  inject<Ref<boolean>>('xxx') //get
+    console.log('topNav 获取的 menuVisible 为：'+menuVisible.value);
+    const toggleMenu = ()=>{
+      menuVisible.value =!menuVisible.value
+    }
+    return{toggleMenu}
+  }
+}
+</script>
 <style lang="scss" scoped>
 .topNav {
   background: pink;
