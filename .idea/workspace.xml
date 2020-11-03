@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604375789323</updated>
       <workItem from="1604375792577" duration="1893000" />
-      <workItem from="1604384322758" duration="10672000" />
+      <workItem from="1604384322758" duration="11321000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -67,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604395030148</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="调节 topNav 和 aside 位置">
+      <created>1604412246798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604412246798</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -79,14 +84,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TopNav 组件封装" />
     <MESSAGE value="初始化 aside 的 html" />
+    <MESSAGE value="实现 aside 点击切换功能" />
     <MESSAGE value="调节 topNav 和 aside 位置" />
     <option name="LAST_COMMIT_MESSAGE" value="调节 topNav 和 aside 位置" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="85" y="48" key="CommitChangelistDialog2" timestamp="1604395026182">
+    <state x="85" y="48" key="CommitChangelistDialog2" timestamp="1604412244161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="85" y="48" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604395026182" />
+    <state x="85" y="48" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604412244161" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
