@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DocDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +34,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="D:\Software\WebStorm 2020.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xkaixiong\jirengu\koi-ui\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xkaixiong\jirengu\koi-ui\src" />
     </key>
@@ -42,7 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604375789323</updated>
       <workItem from="1604375792577" duration="1893000" />
-      <workItem from="1604384322758" duration="11321000" />
+      <workItem from="1604384322758" duration="12572000" />
+      <workItem from="1604459683552" duration="5903000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -72,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604412246798</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="topNav 改为响应式">
+      <created>1604412774759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604412774759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -86,13 +108,14 @@
     <MESSAGE value="初始化 aside 的 html" />
     <MESSAGE value="实现 aside 点击切换功能" />
     <MESSAGE value="调节 topNav 和 aside 位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="调节 topNav 和 aside 位置" />
+    <MESSAGE value="topNav 改为响应式" />
+    <option name="LAST_COMMIT_MESSAGE" value="topNav 改为响应式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="85" y="48" key="CommitChangelistDialog2" timestamp="1604412244161">
+    <state x="85" y="48" key="CommitChangelistDialog2" timestamp="1604412772470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="85" y="48" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604412244161" />
+    <state x="85" y="48" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604412772470" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -105,9 +128,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="238" y="244" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604387055749" />
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604393698366">
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604463049993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604393698366" />
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604463049993" />
   </component>
 </project>
