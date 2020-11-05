@@ -1,13 +1,13 @@
 <template>
   <div>
     <button class="koi-button"
-    :class="`koi-theme-${theme}`"
-    >
+            :class="classes">
       <slot />
     </button>
   </div>
 </template>
 <script lang="ts">
+import {computed} from 'vue'
 export default {
   // props 要先声明才能取、，attrs 不用先声明
   // props 不包含事件，attrs 包含
@@ -17,9 +17,22 @@ export default {
     theme:{
       type:String,
       default:'button'
-    }
-
+    },
+    size:{
+      type:String,
+      default: "normal",
+    },
   },
+  setup(props){
+    const {theme,size} =props
+    const classes = computed(()=>{
+     return  {
+       [`koi-theme-${theme}`]: theme,
+       [`koi-size-${size}`]: size,
+     }
+    })
+    return {classes}
+  }
 }
 </script>
 <style lang="scss">
@@ -59,6 +72,22 @@ $grey: grey;
 
   &::-moz-focus-inner {
     border: 0;
+  }
+  &.koi-theme-text{
+
+  }
+  &.koi-size-big{
+    font-size: 24px;
+    height: 48px;
+    padding: 0 16px;
+  }
+  &.koi-size-small{
+    font-size: 12px;
+    height: 20px;
+    padding: 0 4px;
+  }
+  &.koi-theme-button{
+
   }
 }
 </style>

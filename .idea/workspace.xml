@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/koi.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
       <workItem from="1604375792577" duration="1893000" />
       <workItem from="1604384322758" duration="12572000" />
       <workItem from="1604459683552" duration="10793000" />
-      <workItem from="1604541032666" duration="6212000" />
+      <workItem from="1604541032666" duration="8018000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -131,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604542088167</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="css 最小影响原则">
+      <created>1604548888176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604548888176</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -152,13 +156,14 @@
     <MESSAGE value="使用 v-model" />
     <MESSAGE value="优化 css" />
     <MESSAGE value="创建 Button 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 Button 组件" />
+    <MESSAGE value="css 最小影响原则" />
+    <option name="LAST_COMMIT_MESSAGE" value="css 最小影响原则" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="85" y="48" key="CommitChangelistDialog2" timestamp="1604542085896">
+    <state x="85" y="48" key="CommitChangelistDialog2" timestamp="1604548886256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="85" y="48" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604542085896" />
+    <state x="85" y="48" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604548886256" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
