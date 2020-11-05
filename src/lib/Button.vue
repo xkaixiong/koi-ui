@@ -1,10 +1,11 @@
 <template>
-  <div>
     <button class="koi-button"
-            :class="classes">
+            :class="classes"
+            :disabled="disabled">
+      <button v-if="loading"
+          class="koi-loadingIndicator"></button>
       <slot />
     </button>
-  </div>
 </template>
 <script lang="ts">
 import {computed} from 'vue'
@@ -29,20 +30,26 @@ export default {
     disabled:{
       type:Boolean,
       default:false
-    }
+    },
+    loading:{
+      type:Boolean,
+      default:false
+    },
   },
   setup(props){
-    const {theme,size} =props
+    const {theme,size,level} =props
     const classes = computed(()=>{
      return  {
        [`koi-theme-${theme}`]: theme,
        [`koi-size-${size}`]: size,
+       [`koi-level-${level}`]: level,
      }
     })
     return {classes}
   }
 }
 </script>
+
 <style lang="scss">
 $h: 32px;
 $border-color: #d9d9d9;
@@ -65,7 +72,19 @@ $grey: grey;
   border: 1px solid $border-color;
   border-radius: $radius;
   box-shadow: 0 1px 0 fade-out(black, 0.95);
-  transition: background 250ms;
+  transition: background 0.3s;
+  >.koi-loadingIndicator{
+    z-index: 20;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 8px;
+    border-color: $blue $blue $blue transparent;
+    border-style: solid;
+    border-width: 2px;
+    animation: koi-spin 1s infinite linear;
+  }
   & + & {
     margin-left: 8px;
   }
@@ -77,7 +96,6 @@ $grey: grey;
   &:focus {
     outline: none;
   }
-
   &::-moz-focus-inner {
     border: 0;
   }
@@ -171,18 +189,9 @@ $grey: grey;
       color: $grey;
     }
   }
-  > .koi-loadingIndicator{
-    width: 14px;
-    height: 14px;
-    display: inline-block;
-    margin-right: 4px;
-    border-radius: 8px;
-    border-color: $blue $blue $blue transparent;
-    border-style: solid;
-    border-width: 2px;
-    animation: koi-spin 1s infinite linear;
-  }
+
 }
+
 @keyframes koi-spin {
   0%{transform: rotate(0deg)}
   100%{transform: rotate(360deg)}
