@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <workItem from="1604459683552" duration="10793000" />
       <workItem from="1604541032666" duration="12646000" />
       <workItem from="1604563222199" duration="1804000" />
-      <workItem from="1604584318397" duration="2500000" />
+      <workItem from="1604584318397" duration="3401000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604589064107</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="创建 Dialog 组件">
+      <created>1604589465073</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604589465073</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -183,17 +190,18 @@
     <MESSAGE value="支持 size 属性" />
     <MESSAGE value="支持 level 属性" />
     <MESSAGE value="支持 loading 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持 loading 属性" />
+    <MESSAGE value="创建 Dialog 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 Dialog 组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="202" key="#Inspections" timestamp="1604558420217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="222" y="202" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604558420217" />
-    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604589059185">
+    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604589461437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604589059185" />
+    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604589461437" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
