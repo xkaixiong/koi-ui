@@ -1,5 +1,5 @@
 <template>
-  <button @click="toggle" :class="{checked:value}">
+  <button class="koi-switch" @click="toggle" :class="{'koi-checked':value}">
     <span></span>
   </button>
   <div>{{ value }}</div>
@@ -20,10 +20,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 $h: 22px;
 $h2: $h - 4px;
-button {
+.koi-switch {
   height: $h;
   width: $h*2;
   border: none;
@@ -31,7 +31,7 @@ button {
   border-radius: $h/2;
   position: relative;
 
-  &.checked {
+  &.koi-checked {
     background: #1890ff;
 
     > span {
@@ -45,7 +45,7 @@ button {
     }
   }
 
-  &.checked:active {
+  &.koi-checked:active {
     > span {
       width: $h2+4px;
       margin-left: -4px;
