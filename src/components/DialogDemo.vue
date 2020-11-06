@@ -4,12 +4,25 @@
   <Button @click="toggle">toggle</Button>
   <Dialog v-model:visible="x" :close-onclick-overlay="false"
           :ok="f1" :cancel="f2"
-  ></Dialog>
+  >
+    <template v-slot:content>
+      <div>nihao</div>
+      <div>hi</div>
+    </template>
+<template v-slot:title>
+  <strong>提示</strong>
+</template>
+  </Dialog>
+<h1>示例2</h1>
+  <Button @click="showDialog">show</Button>
+
 </template>
 <script lang="ts">
 import {ref} from 'vue'
 import Dialog from '../lib/Dialog.vue'
 import Button from '../lib/Button.vue';
+import {openDialog} from '../lib/openDialog';
+
 export default {
   components:{
     Dialog,Button
@@ -25,8 +38,19 @@ export default {
     }
     const f2 =  ()=> {
     }
+    const showDialog = ()=>{
+      openDialog({title:'标题',
+      content:'你好',
+        ok(){
+          console.log('ok');
+        },
+        cancel(){
+          console.log('cancel');
+        }
+      })
+    }
 
-    return {x,toggle,f1,f2}
+    return {x,toggle,f1,f2,showDialog}
   }
 }
 </script>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
@@ -51,7 +52,8 @@
       <workItem from="1604459683552" duration="10793000" />
       <workItem from="1604541032666" duration="12646000" />
       <workItem from="1604563222199" duration="1804000" />
-      <workItem from="1604584318397" duration="4765000" />
+      <workItem from="1604584318397" duration="4797000" />
+      <workItem from="1604634904253" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -172,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604590375160</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Dialog 支持点击关闭">
+      <created>1604591726575</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604591726575</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -199,17 +208,18 @@
     <MESSAGE value="支持 loading 属性" />
     <MESSAGE value="创建 Dialog 组件" />
     <MESSAGE value="Dialog 支持 visible 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dialog 支持 visible 属性" />
+    <MESSAGE value="Dialog 支持点击关闭" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialog 支持点击关闭" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="202" key="#Inspections" timestamp="1604558420217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="222" y="202" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604558420217" />
-    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604590371878">
+    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604591724362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604590371878" />
+    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604591724362" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -226,5 +236,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604463049993" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/lib/Dialog.vue</url>
+          <line>52</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
