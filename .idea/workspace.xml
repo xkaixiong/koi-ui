@@ -53,7 +53,7 @@
       <workItem from="1604563222199" duration="1804000" />
       <workItem from="1604584318397" duration="4797000" />
       <workItem from="1604634904253" duration="7751000" />
-      <workItem from="1604730261205" duration="3603000" />
+      <workItem from="1604730261205" duration="4828000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604731589489</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="遇到 vue3 BUG">
+      <created>1604735682602</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604735682602</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -233,17 +240,18 @@
     <MESSAGE value="openDialog 一句话打开 Dialog" />
     <MESSAGE value="创建 Tabs 和 Tab 组件" />
     <MESSAGE value="渲染 Tabs 内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="渲染 Tabs 内容" />
+    <MESSAGE value="遇到 vue3 BUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="遇到 vue3 BUG" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="202" key="#Inspections" timestamp="1604558420217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="222" y="202" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604558420217" />
-    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604731584211">
+    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604735680639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604731584211" />
+    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604735680639" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

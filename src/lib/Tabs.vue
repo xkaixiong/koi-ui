@@ -7,11 +7,12 @@
            :class="{selected:t===selected}"
            :key="index">{{ t }}
       </div>
+      <div class="koi-tabs-nav-indicator"></div>
     </div>
     <div class="koi-tabs-content">
-      {{current}}
       <component class="koi-tabs-content-item"
-                 :is="current"
+                 :clas="{selected:c.props.title===selected}"
+                 v-for="c in defaults" :is="c"
       />
     </div>
   </div>
@@ -51,6 +52,7 @@ export default {
   }
 };
 </script>
+
 <style lang="scss">
 $blue: #40a9ff;
 $color: #333;
@@ -60,7 +62,7 @@ $border-color: #d9d9d9;
     display: flex;
     color: $color;
     border-bottom: 1px solid $border-color;
-
+    position: relative;
     &-item {
       padding: 8px 0;
       margin: 0 16px;
@@ -74,10 +76,24 @@ $border-color: #d9d9d9;
         color: $blue;
       }
     }
+    &-indicator{
+      position: absolute;
+      height: 3px;
+      background: $blue;
+      left: 0;
+      bottom: -1px;
+      width: 100px;
+    }
   }
 
   &-content {
     padding: 8px 0;
+    &-item{
+      display: none;
+      &.selected{
+        display: block;
+      }
+    }
   }
 }
 </style>
