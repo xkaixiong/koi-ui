@@ -35,6 +35,8 @@ $orange:#eb5134;
 $color:#eb5134;
 .topnavAndBanner{
   background: linear-gradient(145deg, rgba(255,226,191,1) 0%, rgba(255,202,142,1) 100%);
+  border-bottom-left-radius: 50% 50%  ;
+  border-bottom-right-radius: 50% 50%  ;
 }
 .features{
   >svg{
