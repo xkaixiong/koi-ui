@@ -1,13 +1,14 @@
 <template>
-  <div>
+  <div class="topnavAndBanner">
     <TopNav/>
     <div class="banner">
       <h1>Koi UI</h1>
       <h2>一个自建的 UI 框架</h2>
       <p class="actions">
         <a href="https://github.com/xkaixiong/">Github</a>
-<router-link to="/doc">开始</router-link>
+        <router-link to="/doc">开始</router-link>
       </p>
+
     </div>
   </div>
 </template>
@@ -20,8 +21,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.topnavAndBanner{
+  background: linear-gradient(145deg, rgba(255,226,191,1) 0%, rgba(255,184,102,1) 100%);
+}
 .banner{
-  background: lightgreen;
   padding: 100px 0;
   display: flex;
   justify-content: center;

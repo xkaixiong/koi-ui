@@ -4,7 +4,9 @@
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,9 @@
       <workItem from="1604563222199" duration="1804000" />
       <workItem from="1604584318397" duration="4797000" />
       <workItem from="1604634904253" duration="7751000" />
-      <workItem from="1604730261205" duration="7045000" />
+      <workItem from="1604730261205" duration="7181000" />
+      <workItem from="1604756804133" duration="599000" />
+      <workItem from="1604804667577" duration="6021000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -216,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604736653876</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="实现下划线滑动">
+      <created>1604740468251</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604740468251</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -249,17 +260,18 @@
     <MESSAGE value="渲染 Tabs 内容" />
     <MESSAGE value="遇到 vue3 BUG" />
     <MESSAGE value="indicator CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="indicator CSS" />
+    <MESSAGE value="实现下划线滑动" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现下划线滑动" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="202" key="#Inspections" timestamp="1604558420217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="222" y="202" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604558420217" />
-    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604736650907">
+    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604740465981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604736650907" />
+    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604740465981" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -272,10 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="238" y="244" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604387055749" />
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604733996661">
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604820951327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604733996661" />
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604820951327" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
