@@ -1,21 +1,19 @@
 <template>
   <div>Dialog 示例</div>
   <h1>示例1</h1>
-  <Button @click="toggle">toggle</Button>
+  <Button @click="toggle">打开对话框</Button>
   <Dialog v-model:visible="x" :close-onclick-overlay="false"
           :ok="f1" :cancel="f2"
   >
     <template v-slot:content>
-      <div>nihao</div>
-      <div>hi</div>
+      你好
     </template>
 <template v-slot:title>
   <strong>提示</strong>
 </template>
   </Dialog>
 <h1>示例2</h1>
-  <Button @click="showDialog">show</Button>
-
+  <Button @click="showDialog">打开对话框</Button>
 </template>
 <script lang="ts">
 import {ref} from 'vue'

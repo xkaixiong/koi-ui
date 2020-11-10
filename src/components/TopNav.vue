@@ -7,8 +7,6 @@
         </svg>
       </router-link>
       <ul class="menu">
-        <li>菜单1</li>
-        <li>菜单2</li>
       </ul>
       <svg v-if="toggleMenuButtonVisible"
            class="toggleAside" @click="toggleMenu">
@@ -49,12 +47,19 @@ $color:#eb5134;
   z-index: 20;
   justify-content: center;
   align-items: center;
+  >svg:hover{
+    width: 52px;
+    height: 52px;
+  }
   > .logo {
     max-width: 6em;
-    margin-right: auto;
+    margin: 0 auto;
     >svg{
       width: 48px;
       height: 48px;
+      :hover{
+        transform:scale(1.1);
+      }
     }
   }
   > .menu {
@@ -72,12 +77,12 @@ $color:#eb5134;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    display: none;
+    //display: none;
   }
   @media (max-width: 500px) {
-    > .menu {
-      display: none;
-    }
+    //> .menu {
+    //  display: none;
+    //}
     > .logo {
       margin: 0 auto;
     }

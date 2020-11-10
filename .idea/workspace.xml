@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button5.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DocDemo.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +42,13 @@
     <property name="ts.external.directory.path" value="D:\Software\WebStorm 2020.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xkaixiong\jirengu\koi-ui\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xkaixiong\jirengu\koi-ui\src\markdown" />
       <recent name="D:\xkaixiong\jirengu\koi-ui\src\views" />
       <recent name="D:\xkaixiong\jirengu\koi-ui\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xkaixiong\jirengu\koi-ui\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,7 +70,8 @@
       <workItem from="1604756804133" duration="599000" />
       <workItem from="1604804667577" duration="15741000" />
       <workItem from="1604891103953" duration="12618000" />
-      <workItem from="1604974949679" duration="10016000" />
+      <workItem from="1604974949679" duration="13824000" />
+      <workItem from="1605022151734" duration="2779000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -285,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604991272726</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="删除无用代码">
+      <created>1604999981492</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1604999981492</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -295,7 +314,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="可以接受 value值 和 input事件" />
     <MESSAGE value="使用 v-model" />
     <MESSAGE value="优化 css" />
     <MESSAGE value="创建 Button 组件" />
@@ -320,21 +338,22 @@
     <MESSAGE value="抽离用户需要拷贝的代码" />
     <MESSAGE value="展示源代码" />
     <MESSAGE value="展示源代码高亮" />
-    <option name="LAST_COMMIT_MESSAGE" value="展示源代码高亮" />
+    <MESSAGE value="删除无用代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除无用代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="202" key="#Inspections" timestamp="1604558420217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="222" y="202" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604558420217" />
-    <state x="283" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604914234732">
+    <state x="283" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605000168977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="283" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604914234732" />
-    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604991270286">
+    <state x="283" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605000168977" />
+    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604999979249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604991270286" />
+    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604999979249" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -347,10 +366,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="238" y="244" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604387055749" />
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604990098570">
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605024769012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604990098570" />
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605024769012" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

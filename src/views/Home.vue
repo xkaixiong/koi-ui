@@ -60,6 +60,7 @@ $color: #eb5134;
 
 .features {
   margin: 64px auto;
+  padding: 0 16px;
   width: 400px;
   @media (min-width: 800px) {
     width: 800px;
