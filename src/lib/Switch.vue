@@ -2,7 +2,6 @@
   <button class="koi-switch" @click="toggle" :class="{'koi-checked':value}">
     <span></span>
   </button>
-  <div>{{ value }}</div>
 </template>
 
 <script lang="ts">
