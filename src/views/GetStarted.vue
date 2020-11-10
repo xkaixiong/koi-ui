@@ -1,5 +1,3 @@
 <template>
-  <div>
-    开始使用
-  </div>
+  <Markdown path="../markdown/get-started.md"/>
 </template>

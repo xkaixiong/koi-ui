@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +46,13 @@
     <property name="ts.external.directory.path" value="D:\Software\WebStorm 2020.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xkaixiong\jirengu\koi-ui\src\views" />
-      <recent name="D:\xkaixiong\jirengu\koi-ui\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xkaixiong\jirengu\koi-ui\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xkaixiong\jirengu\koi-ui\src\markdown" />
+      <recent name="D:\xkaixiong\jirengu\koi-ui\src\views" />
+      <recent name="D:\xkaixiong\jirengu\koi-ui\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +73,8 @@
       <workItem from="1604730261205" duration="7181000" />
       <workItem from="1604756804133" duration="599000" />
       <workItem from="1604804667577" duration="15741000" />
-      <workItem from="1604891103953" duration="1908000" />
+      <workItem from="1604891103953" duration="12618000" />
+      <workItem from="1604974949679" duration="3341000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -254,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604892293413</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="简单高亮当前路由">
+      <created>1604894076571</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1604894076571</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -264,7 +289,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="调节 topNav 和 aside 位置" />
     <MESSAGE value="topNav 改为响应式" />
     <MESSAGE value="基本完成网页框架" />
     <MESSAGE value="Switch 动画" />
@@ -289,17 +313,22 @@
     <MESSAGE value="从 iconfont 引入图标" />
     <MESSAGE value="页面圆弧" />
     <MESSAGE value="创建路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建路由" />
+    <MESSAGE value="简单高亮当前路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单高亮当前路由" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="202" key="#Inspections" timestamp="1604558420217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="222" y="202" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604558420217" />
-    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604892289784">
+    <state x="283" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604914234732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604892289784" />
+    <state x="283" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604914234732" />
+    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1604894073847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604894073847" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -312,10 +341,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="238" y="244" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604387055749" />
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604852744783">
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604912862798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604852744783" />
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604912862798" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
