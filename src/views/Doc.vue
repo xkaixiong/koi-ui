@@ -39,23 +39,21 @@
 </template>
 
 <script lang="ts">
-import TopNav from '../components/TopNav.vue'
+import TopNav from '../components/TopNav.vue';
 import {inject, Ref} from 'vue';
+
 export default {
-  components:{TopNav},
-  setup(){
-    const menuVisible =  inject<Ref<boolean>>('menuVisible') //get
-    console.log('Doc aside 获取的 menuVisible 为：'+menuVisible.value);
-  return {menuVisible}
+  components: {TopNav},
+  setup() {
+    const menuVisible = inject<Ref<boolean>>('menuVisible'); //get
+    console.log('Doc aside 获取的 menuVisible 为：' + menuVisible.value);
+    return {menuVisible};
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
 $color: #eb5134;
-.router-link-active{
-
-}
 .layout {
   display: flex;
   flex-direction: column;
@@ -64,6 +62,7 @@ $color: #eb5134;
   > .nav {
     flex-shrink: 0;
   }
+
   > .content {
     flex-grow: 1;
     padding-top: 60px;
@@ -73,19 +72,24 @@ $color: #eb5134;
     }
   }
 }
+
 .content {
   display: flex;
+
   > aside {
     flex-shrink: 0;
+
   }
+
   > main {
     flex-grow: 1;
     padding: 16px;
     background: #fff;
   }
 }
+
 aside {
-  background: lightblue;
+  background: rgba(255, 226, 191, 1);
   width: 150px;
   padding: 16px 0;
   position: fixed;
@@ -94,24 +98,32 @@ aside {
   padding-top: 70px;
   height: 100%;
   z-index: 1;
+
   > h2 {
     margin-bottom: 4px;
     padding: 0 16px;
   }
+
   > ol {
     > li {
       padding: 4px 0;
-      >a{
+
+      > a {
         display: block;
         padding: 4px 16px;
         text-decoration: none;
+        &:hover {
+          font-weight: bold;
+        }
       }
-      .router-link-active{
+      .router-link-active {
         background: #fff;
+        font-weight: bold;
       }
     }
   }
 }
+
 main {
   overflow: auto;
 }

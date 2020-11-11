@@ -16,26 +16,27 @@
   </div>
 </template>
 <script lang="ts">
-import {inject,Ref} from 'vue'
+import {inject, Ref} from 'vue';
+
 export default {
-  props:{
-    toggleMenuButtonVisible:{
-      type:Boolean,
-      default:false
+  props: {
+    toggleMenuButtonVisible: {
+      type: Boolean,
+      default: false
     }
   },
-  setup(){
-    const menuVisible =  inject<Ref<boolean>>('menuVisible') //get
-    console.log('topNav 获取的 menuVisible 为：'+menuVisible.value);
-    const toggleMenu = ()=>{
-      menuVisible.value =!menuVisible.value
-    }
-    return{toggleMenu}
+  setup() {
+    const menuVisible = inject<Ref<boolean>>('menuVisible'); //get
+    console.log('topNav 获取的 menuVisible 为：' + menuVisible.value);
+    const toggleMenu = () => {
+      menuVisible.value = !menuVisible.value;
+    };
+    return {toggleMenu};
   }
-}
+};
 </script>
 <style lang="scss" scoped>
-$color:#eb5134;
+$color: #eb5134;
 .topNav {
   color: $color;
   display: flex;
@@ -47,29 +48,45 @@ $color:#eb5134;
   z-index: 20;
   justify-content: center;
   align-items: center;
-  >svg:hover{
-    width: 52px;
-    height: 52px;
+
+  > svg:active {
+    width: 44px;
+    height: 44px;
   }
+
+  > svg:hover {
+    width: 44px;
+    height: 44px;
+  }
+
   > .logo {
     max-width: 6em;
     margin: 0 auto;
-    >svg{
+
+    > svg {
       width: 48px;
       height: 48px;
-      :hover{
-        transform:scale(1.1);
+
+      :active {
+        transform: scale(1.1);
+      }
+
+      :hover {
+        transform: scale(1.1);
       }
     }
   }
+
   > .menu {
     display: flex;
     white-space: nowrap;
     flex-wrap: nowrap;
+
     > li {
       margin: 0 1em;
     }
   }
+
   > .toggleAside {
     width: 40px;
     height: 40px;
@@ -79,6 +96,7 @@ $color:#eb5134;
     transform: translateY(-50%);
     //display: none;
   }
+
   @media (max-width: 500px) {
     //> .menu {
     //  display: none;

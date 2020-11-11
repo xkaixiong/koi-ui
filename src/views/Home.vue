@@ -19,7 +19,7 @@
           <svg class="icon">
             <use xlink:href="#icon-light"></use>
           </svg>
-          <h3>易学习</h3>
+          <h3>容易学习</h3>
           <p>各部分组件代码书写简洁</p>
         </li>
         <li>
@@ -34,7 +34,7 @@
             <use xlink:href="#icon-ts"></use>
           </svg>
           <h3>基于 TypeScript</h3>
-          <p>采用 TypeScript 书写源代码（非严格检查）</p>
+          <p>采用 TypeScript 书写源代码</p>
         </li>
       </ul>
     </div>
@@ -57,16 +57,22 @@ $color: #eb5134;
   border-bottom-left-radius: 100% 50%;
   border-bottom-right-radius: 100% 50%;
 }
-
 .features {
   margin: 64px auto;
-  padding: 0 16px;
-  width: 400px;
+  padding: 0 48px;
   @media (min-width: 800px) {
     width: 800px;
+    >ul{
+      >li{
+        width: 50%;}
+    }
   }
   @media (min-width: 1200px) {
     width: 1200px;
+    >ul{
+      >li{
+        width: 33.3333%;}
+    }
   }
 
   > ul {
@@ -74,7 +80,6 @@ $color: #eb5134;
     flex-wrap: wrap;
 
     > li {
-      width: 400px;
       margin: 16px 0;
       display: grid;
       justify-content: start;
@@ -97,12 +102,14 @@ $color: #eb5134;
       }
 
       > p {
-        grid-area: text
+        grid-area: text;
+        >a:hover{
+          font-weight: bold;
+        }
       }
     }
   }
 }
-
 .banner {
   padding: 100px 0;
   display: flex;
@@ -110,22 +117,22 @@ $color: #eb5134;
   align-items: center;
   flex-direction: column;
   color: $color;
-
   > .actions {
-
     a {
       padding: 0 8px;
       margin: 0 8px;
       background: $orange;
-      color: #fff;
+      color:rgba(255, 226, 191, 1);
       display: inline-block;
       $h: 36px;
       height: $h;
       line-height: $h;
       border-radius: $h/2;
-
+      .div{
+      }
       &:hover {
         text-decoration: none;
+        color:#fff;
       }
     }
   }
