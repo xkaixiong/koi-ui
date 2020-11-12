@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +69,9 @@
       <workItem from="1604891103953" duration="12618000" />
       <workItem from="1604974949679" duration="13824000" />
       <workItem from="1605022151734" duration="5343000" />
-      <workItem from="1605060745905" duration="13026000" />
+      <workItem from="1605060745905" duration="17252000" />
+      <workItem from="1605105290575" duration="940000" />
+      <workItem from="1605147484480" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -339,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605087832070</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="添加一键部署脚本">
+      <created>1605088458176</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1605088458176</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -349,7 +363,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="支持 level 属性" />
     <MESSAGE value="支持 loading 属性" />
     <MESSAGE value="创建 Dialog 组件" />
     <MESSAGE value="Dialog 支持 visible 属性" />
@@ -374,7 +387,8 @@
     <MESSAGE value="优化细节" />
     <MESSAGE value="忽略 dist 和 history" />
     <MESSAGE value="调整配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整配置" />
+    <MESSAGE value="添加一键部署脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一键部署脚本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="202" key="#Inspections" timestamp="1604558420217">
@@ -389,10 +403,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="283" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605000168977" />
-    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1605087829082">
+    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1605088455341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605087829082" />
+    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605088455341" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -401,18 +415,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604383416946" />
-    <state x="228" y="267" width="594" height="528" key="find.popup" timestamp="1605085705539">
+    <state x="643" y="248" width="594" height="528" key="find.popup" timestamp="1605147659786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="228" y="267" width="594" height="528" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605085705539" />
+    <state x="643" y="248" width="594" height="528" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605147659786" />
     <state x="238" y="244" key="run.anything.popup" timestamp="1604387055749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="238" y="244" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604387055749" />
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605085712274">
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605147648934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605085712274" />
+    <state x="150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605147648934" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

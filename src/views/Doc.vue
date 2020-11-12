@@ -46,7 +46,6 @@ export default {
   components: {TopNav},
   setup() {
     const menuVisible = inject<Ref<boolean>>('menuVisible'); //get
-    console.log('Doc aside 获取的 menuVisible 为：' + menuVisible.value);
     return {menuVisible};
   }
 };

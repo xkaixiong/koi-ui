@@ -44,7 +44,7 @@ export default {
     onUpdated(x);
     const defaults = context.slots.default();
     defaults.forEach((tag) => {
-      if (tag.type !== Tab) {
+      if (tag.type.name !== Tab.name) {
         throw new Error('Tab 子标签必须是 Tab');
       }
     });
@@ -105,7 +105,6 @@ $border-color: #d9d9d9;
 
     &-item {
       display: none;
-
       &.selected {
         display: block;
       }
