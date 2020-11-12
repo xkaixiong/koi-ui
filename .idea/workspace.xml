@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <workItem from="1605022151734" duration="5343000" />
       <workItem from="1605060745905" duration="17252000" />
       <workItem from="1605105290575" duration="940000" />
-      <workItem from="1605147484480" duration="1153000" />
+      <workItem from="1605147484480" duration="2328000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -356,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605148030889</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="创建 rollup.config.js">
+      <created>1605148674059</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1605148674059</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -366,7 +373,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建 Dialog 组件" />
     <MESSAGE value="Dialog 支持 visible 属性" />
     <MESSAGE value="Dialog 支持点击关闭" />
     <MESSAGE value="openDialog 一句话打开 Dialog" />
@@ -391,7 +397,8 @@
     <MESSAGE value="调整配置" />
     <MESSAGE value="添加一键部署脚本" />
     <MESSAGE value="创建 lib/index.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 lib/index.ts" />
+    <MESSAGE value="创建 rollup.config.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 rollup.config.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="202" key="#Inspections" timestamp="1604558420217">
@@ -406,10 +413,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="283" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605000168977" />
-    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1605148586622">
+    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1605148671588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605148586622" />
+    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605148671588" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

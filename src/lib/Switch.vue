@@ -1,6 +1,5 @@
 <template>
   <button class="koi-switch" @click="toggle" :class="{'koi-checked':value}">
-    <span></span>
   </button>
 </template>
 
