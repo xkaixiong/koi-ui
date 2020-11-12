@@ -1,53 +1,49 @@
 <template>
-    <button class="koi-button"
-            :class="classes"
-            :disabled="disabled">
+  <button class="koi-button" :class="classes" :disabled="disabled">
       <button v-if="loading"
-          class="koi-loadingIndicator"></button>
-      <slot />
-    </button>
+            class="koi-loadingIndicator"></button>
+    <slot/>
+  </button>
 </template>
 <script lang="ts">
-import {computed} from 'vue'
+import {computed} from 'vue';
+
 export default {
-  // props 要先声明才能取、，attrs 不用先声明
-  // props 不包含事件，attrs 包含
-  // props 没有申明的属性，会跑到 attrs 里面
-  // props 支持 string 以外的类型， attrs 只有 string 类型
-  props:{
-    theme:{
-      type:String,
-      default:'button'
+
+  props: {
+    theme: {
+      type: String,
+      default: 'button'
     },
-    size:{
-      type:String,
-      default: "normal",
+    size: {
+      type: String,
+      default: 'normal',
     },
-    level:{
-      type:String,
-      default:"normal"
+    level: {
+      type: String,
+      default: 'normal'
     },
-    disabled:{
-      type:Boolean,
-      default:false
+    disabled: {
+      type: Boolean,
+      default: false
     },
-    loading:{
-      type:Boolean,
-      default:false
+    loading: {
+      type: Boolean,
+      default: false
     },
   },
-  setup(props){
-    const {theme,size,level} =props
-    const classes = computed(()=>{
-     return  {
-       [`koi-theme-${theme}`]: theme,
-       [`koi-size-${size}`]: size,
-       [`koi-level-${level}`]: level,
-     }
-    })
-    return {classes}
+  setup(props) {
+    const {theme, size, level} = props;
+    const classes = computed(() => {
+      return {
+        [`koi-theme-${theme}`]: theme,
+        [`koi-size-${size}`]: size,
+        [`koi-level-${level}`]: level,
+      };
+    });
+    return {classes};
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -73,7 +69,8 @@ $grey: grey;
   border-radius: $radius;
   box-shadow: 0 1px 0 fade-out(black, 0.95);
   transition: background 0.3s;
-  >.koi-loadingIndicator{
+
+  > .koi-loadingIndicator {
     z-index: 20;
     width: 10px;
     height: 10px;
@@ -85,63 +82,77 @@ $grey: grey;
     border-width: 2px;
     animation: koi-spin 1s infinite linear;
   }
+
   & + & {
     margin-left: 8px;
   }
+
   &:hover,
   &:focus {
     color: $blue;
     border-color: $blue;
   }
+
   &:focus {
     outline: none;
   }
+
   &::-moz-focus-inner {
     border: 0;
   }
+
   &.koi-theme-link {
     border-color: transparent;
     box-shadow: none;
     color: $blue;
+
     &:hover,
     &:focus {
       color: lighten($blue, 10%);
     }
   }
+
   &.koi-theme-text {
     border-color: transparent;
     box-shadow: none;
     color: inherit;
+
     &:hover,
     &:focus {
       background: darken(white, 5%);
     }
   }
-  &.koi-size-big{
+
+  &.koi-size-big {
     font-size: 24px;
     height: 48px;
     padding: 0 16px;
   }
-  &.koi-size-small{
+
+  &.koi-size-small {
     font-size: 12px;
     height: 20px;
     padding: 0 4px;
   }
+
   &.koi-theme-button {
     &.koi-level-main {
       background: $blue;
       color: white;
       border-color: $blue;
+
       &:hover,
       &:focus {
         background: darken($blue, 10%);
         border-color: darken($blue, 10%);
       }
     }
+
     &.koi-level-danger {
       background: $red;
       border-color: $red;
       color: white;
+
       &:hover,
       &:focus {
         background: darken($red, 10%);
@@ -149,40 +160,49 @@ $grey: grey;
       }
     }
   }
+
   &.koi-theme-link {
     &.koi-level-danger {
       color: $red;
+
       &:hover,
       &:focus {
         color: darken($red, 10%);
       }
     }
   }
+
   &.koi-theme-text {
     &.koi-level-main {
       color: $blue;
+
       &:hover,
       &:focus {
         color: darken($blue, 10%);
       }
     }
+
     &.koi-level-danger {
       color: $red;
+
       &:hover,
       &:focus {
         color: darken($red, 10%);
       }
     }
   }
+
   &.koi-theme-button {
     &[disabled] {
       cursor: not-allowed;
       color: $grey;
+
       &:hover {
         border-color: $grey;
       }
     }
   }
+
   &.koi-theme-link, &.koi-theme-text {
     &[disabled] {
       cursor: not-allowed;
@@ -193,7 +213,11 @@ $grey: grey;
 }
 
 @keyframes koi-spin {
-  0%{transform: rotate(0deg)}
-  100%{transform: rotate(360deg)}
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
 }
 </style>

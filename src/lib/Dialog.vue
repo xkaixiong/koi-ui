@@ -1,21 +1,21 @@
 <template>
   <template v-if="visible">
-      <div class="koi-dialog-overlay" @click="onClickOverlay"></div>
-      <div class="koi-dialog-wrapper">
-        <div class="koi-dialog">
-          <header>
-            <slot name="title"/>
-            <span @click="close" class="koi-dialog-close"></span>
-          </header>
-          <main>
-            <slot name="content"/>
-          </main>
-          <footer>
-            <Button level="main" @click="ok">Ok</Button>
-            <Button @click="cancel">Cancel</Button>
-          </footer>
-        </div>
+    <div class="koi-dialog-overlay" @click="onClickOverlay"></div>
+    <div class="koi-dialog-wrapper">
+      <div class="koi-dialog">
+        <header>
+          <slot name="title"/>
+          <span @click="close" class="koi-dialog-close"></span>
+        </header>
+        <main>
+          <slot name="content"/>
+        </main>
+        <footer>
+          <Button level="main" @click="ok">Ok</Button>
+          <Button @click="cancel">Cancel</Button>
+        </footer>
       </div>
+    </div>
   </template>
 </template>
 <script lang="ts">
@@ -49,12 +49,12 @@ export default {
       }
     };
     const ok = () => {
-      if (props.ok?.()!==false) {
+      if (props.ok?.() !== false) {
         close();
       }
     };
     const cancel = () => {
-      props.cancel ?.()
+      props.cancel?.();
       close();
     };
     return {close, onClickOverlay, ok, cancel};

@@ -7,6 +7,9 @@
         </svg>
       </router-link>
       <ul class="menu">
+        <li>
+          <router-link to="/doc">文档</router-link>
+        </li>
       </ul>
       <svg v-if="toggleMenuButtonVisible"
            class="toggleAside" @click="toggleMenu">
@@ -80,7 +83,6 @@ $color: #eb5134;
     display: flex;
     white-space: nowrap;
     flex-wrap: nowrap;
-
     > li {
       margin: 0 1em;
     }

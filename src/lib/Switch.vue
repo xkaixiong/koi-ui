@@ -1,6 +1,8 @@
 <template>
-  <button class="koi-switch" @click="toggle" :class="{'koi-checked':value}">
-  </button>
+  <div>
+    <button class="koi-switch" @click="toggle" :class="{'koi-checked':value}">
+    </button>
+  </div>
 </template>
 
 <script lang="ts">
@@ -18,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 $h: 22px;
 $h2: $h - 4px;
 .koi-switch {
