@@ -1,15 +1,21 @@
 <template>
   <div>
-    <button class="koi-switch" @click="toggle" :class="{'koi-checked':value}">
+    <button class="koi-switch" @click="toggle"
+            :class="{'koi-checked':value}"
+            :disabled="disabled">
+      <span></span>
     </button>
   </div>
 </template>
 
 <script lang="ts">
-
 export default {
   props: {
     value: Boolean,
+    disabled: {
+      type: Boolean,
+      default: false
+    },
   },
   setup(props, context) {
     const toggle = () => {
