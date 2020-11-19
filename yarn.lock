@@ -1861,19 +1861,10 @@ rollup-plugin-terser@^7.0.2:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-rollup-plugin-vue@^6.0.0-beta.11:
+rollup-plugin-vue@^6.0.0-beta.11, rollup-plugin-vue@^6.0.0-beta.9:
   version "6.0.0-beta.11"
   resolved "https://registry.npmjs.org/rollup-plugin-vue/-/rollup-plugin-vue-6.0.0-beta.11.tgz#fdbc6b7484a361ef8c5e8009cef4a6bd45435013"
   integrity sha512-osqLkFc7N76TOI0CeW0BOujlMFsMIoytyTRVUivaeYSMponNfk1iSuqyoeciUB3EjFqyL/dTTFPi+7rhaAm73w==
-  dependencies:
-    debug "^4.1.1"
-    hash-sum "^2.0.0"
-    rollup-pluginutils "^2.8.2"
-
-rollup-plugin-vue@^6.0.0-beta.9:
-  version "6.0.0-beta.11"
-  resolved "https://registry.npm.taobao.org/rollup-plugin-vue/download/rollup-plugin-vue-6.0.0-beta.11.tgz#fdbc6b7484a361ef8c5e8009cef4a6bd45435013"
-  integrity sha1-/bxrdISjYe+MXoAJzvSmvUVDUBM=
   dependencies:
     debug "^4.1.1"
     hash-sum "^2.0.0"
@@ -2144,10 +2135,10 @@ vary@^1.1.2:
   resolved "https://registry.npm.taobao.org/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vite@1.0.0-rc.3:
-  version "1.0.0-rc.3"
-  resolved "https://registry.npmjs.org/vite/-/vite-1.0.0-rc.3.tgz#8ec2926656e044ab7e0122f10f14b48b6d8dbbe0"
-  integrity sha512-3zYPtyHPIkNTXpdl8Tj/SnuTLONcSt/fxsehs6pm6+uFjOyfj++kp7JkGkRuPTE2GADUJKD1GLNLznC0VWUzng==
+vite@1.0.0-rc.1:
+  version "1.0.0-rc.1"
+  resolved "https://registry.npmjs.org/vite/-/vite-1.0.0-rc.1.tgz#073cef87d7f335dad7b13dd69506ca23129e55b4"
+  integrity sha512-CpJN3C2uhY6xcISlHIs9lJCnIe40/WGat8B0X60h1PVR/tcD+Ef8Iv/G/oxK31Qm4xFzjJ9m6mr4pOUVfH4nUA==
   dependencies:
     "@babel/parser" "^7.9.4"
     "@rollup/plugin-commonjs" "^13.0.0"
@@ -2194,7 +2185,6 @@ vite@1.0.0-rc.3:
     rollup-plugin-terser "^5.3.0"
     rollup-plugin-vue "^6.0.0-beta.9"
     rollup-plugin-web-worker-loader "^1.3.0"
-    rollup-pluginutils "^2.8.2"
     selfsigned "^1.10.7"
     slash "^3.0.0"
     vue "^3.0.0-rc.1"

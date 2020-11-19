@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1384734-c88f-4b21-b833-c0849177334b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deployGitee.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/openDialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,19 +33,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="D:\Software\WebStorm 2020.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xkaixiong\jirengu\koi-ui" />
+      <recent name="D:\xkaixiong\jirengu\koi-ui\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xkaixiong\jirengu\koi-ui\src\markdown" />
       <recent name="D:\xkaixiong\jirengu\koi-ui\src\views" />
       <recent name="D:\xkaixiong\jirengu\koi-ui\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xkaixiong\jirengu\koi-ui\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +78,10 @@
       <workItem from="1605257498463" duration="933000" />
       <workItem from="1605666903259" duration="272000" />
       <workItem from="1605667238661" duration="714000" />
-      <workItem from="1605703757099" duration="6346000" />
+      <workItem from="1605703757099" duration="6939000" />
+      <workItem from="1605714535737" duration="266000" />
+      <workItem from="1605714871459" duration="345000" />
+      <workItem from="1605753908260" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="TopNav 组件封装">
       <created>1604391297861</created>
@@ -402,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605713582195</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="更新 package.json">
+      <created>1605713926363</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1605713926363</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -434,10 +451,10 @@
     <MESSAGE value="调整配置" />
     <MESSAGE value="添加一键部署脚本" />
     <MESSAGE value="创建 lib/index.ts" />
-    <MESSAGE value="更新 package.json" />
     <MESSAGE value="Switch.vue 的 disabled 功能" />
     <MESSAGE value="创建 rollup.config.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 rollup.config.js" />
+    <MESSAGE value="更新 package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 package.json" />
   </component>
   <component name="WindowStateProjectService">
     <state x="222" y="202" key="#Inspections" timestamp="1604558420217">
@@ -452,10 +469,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="283" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605000168977" />
-    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1605713579770">
+    <state x="415" y="89" key="CommitChangelistDialog2" timestamp="1605713924267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605713579770" />
+    <state x="415" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605713924267" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1604383281248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -464,10 +481,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604383416946" />
-    <state x="643" y="248" width="594" height="528" key="find.popup" timestamp="1605709722462">
+    <state x="643" y="248" width="594" height="528" key="find.popup" timestamp="1605715006067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="643" y="248" width="594" height="528" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605709722462" />
+    <state x="643" y="248" width="594" height="528" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605715006067" />
     <state x="238" y="244" key="run.anything.popup" timestamp="1604387055749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
